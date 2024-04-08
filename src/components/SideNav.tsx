@@ -2,7 +2,7 @@ import React from "react";
 
 const SideNav: React.FC = () => {
   return (
-    <div className="w-1/6 h-full p-2">
+    <div className="h-full p-2">
       <ul className="mb-4">
         <li className="flex gap-2 ml-6 p-2 border-b-4 border-orange-600 bg-gray-200">
           <img src="assets/home.png" className="w-6 h-6" alt="Home" />
