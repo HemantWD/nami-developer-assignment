@@ -11,7 +11,7 @@ const MainPage: React.FC = () => {
       <div className=" hidden xl:block w-1/4">
         <SideNav />
       </div>
-      <div className="w-full xl:w-3/4 flex flex-col m-2">
+      <div className=" xl:w-3/4 flex flex-col m-2">
         <div className="flex flex-row justify-between items-start gap-6 mb-5">
           <h2 className="font-serif text-2xl font-semibold">
             Tasks of the day
