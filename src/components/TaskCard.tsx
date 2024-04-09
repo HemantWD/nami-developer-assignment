@@ -3,7 +3,7 @@ import { delayedData, finshedData, notifyData } from "../data";
 
 const TaskCard: React.FC = () => {
   return (
-    <div className="flex items-start gap-6">
+    <div className="flex items-start gap-2 flex-col md:flex-row">
       <div className=" flex flex-col items-start gap-6 mt-5">
         {notifyData.map((data) => (
           <Card
